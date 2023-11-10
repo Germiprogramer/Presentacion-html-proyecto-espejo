@@ -1,0 +1,134 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F8FF; /* Azul claro */
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #4E3629; /* Marrón oscuro */
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    text-align: center; /* Centra el texto dentro del contenedor */
+    font-size: 36px; /* Aumentamos el tamaño del título */
+    letter-spacing: 2px; /* Añadimos espacio entre letras */
+    text-transform: uppercase; /* Transformamos el texto a mayúsculas */
+    font-family: 'Playfair Display', serif;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  nav ul li a:hover {
+    color: #6495ED; /* Azul claro */
+  }
+  
+  .content {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .content h2 {
+    color: #4E3629; /* Marrón oscuro */
+  }
+
+
+  .footer {
+    background-color: #4E3629; /* Marrón oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* style4.css */
+
+#imagenes {
+    background-color: #f8f8f8; /* Fondo gris claro */
+    padding: 50px 0;
+    padding-bottom: 20%;
+  }
+  
+  #imagenes .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #imagenes h2 {
+    color: #4E3629; /* Marrón oscuro */
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    width: 48%; /* Ajustar según sea necesario */
+    margin-bottom: 20px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilos adicionales para mejorar la apariencia */
+
+  
+
+  /* Estilos responsive */
+@media screen and (max-width: 768px) {
+    .header h1 {
+      font-size: 24px;
+    }
+  
+    nav ul li a {
+      font-size: 16px;
+    }
+  
+    .content h2 {
+      font-size: 24px;
+    }
+
+    .column {
+        width: 100%; /* En dispositivos pequeños, ocupar toda la anchura */
+    }
+  }
